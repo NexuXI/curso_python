@@ -1,4 +1,6 @@
 # Creacion de la clase padre Trabajador que a su vez hereda de Persona
+import datetime
+
 from Hospital.Clases.Persona import Persona
 
 
@@ -16,4 +18,5 @@ class Trabajador(Persona):
         Imprime un mensaje de que la persona ha fichado.
         :return: No devuelve nada.
         '''
-        print(f'El trabajador: {self.nombre} ha fichado.')
+        hora = datetime.datetime.now()
+        print(f'El trabajador: {self.nombre} ha fichado a las: [{hora}].')

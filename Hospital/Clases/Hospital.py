@@ -1,3 +1,5 @@
+from functools import reduce
+
 from Hospital.Clases.Enfermo import Enfermo
 
 
@@ -64,10 +66,20 @@ class Hospital:
         print("------------------------------------------------------")
         while len(self.sala_de_espera) != 0:
             for enfermero in self.enfermeros:
-                for paciente in self.sala_de_espera:
+                for index, paciente in enumerate(self.sala_de_espera):
                     print("--> --> --> --> --> --> --> --> --> --> --> --> --> --> --> ")
                     enfermero.atender(paciente, self.consultas)
-                    self.sala_de_espera.pop(0)
+                    print("_________________________________")
+                    print("Pacientes de la sala de espera")
+                    for p in self.sala_de_espera:
+                        print(p.nombre, " ", p.apellidos)
+                    print("_________________________________")
+                    self.sala_de_espera.pop(index)
+                    print("_________________________________")
+                    print("Pacientes de la sala de espera")
+                    for p in self.sala_de_espera:
+                        print(p.nombre, " ", p.apellidos)
+                    print("_________________________________")
                     for consulta in self.consultas:
                         if consulta.doctor.diagnosticar(paciente):
                             # Esta enfermo de gravedad
@@ -89,25 +101,23 @@ class Hospital:
                             enfermo = Enfermo(paciente.nombre, paciente.apellidos, paciente.dni, enfermedad)
                             # Borra paciente tras crear enfermo
                             print(f'Paciente de la consulta: {paciente.nombre}')
-                            consulta.removePaciente()
+                            #consulta.removePaciente()
                             if len(self.habitaciones) < 3:
                                 print(
                                     f'El paciente: {paciente.nombre} {paciente.apellidos} ha sido internado como enfermo en una de las habitaciones.')
                                 self.addEnfermo(enfermo)
-                                for pac in self.sala_de_espera:
-                                    if pac == paciente:
-                                        del pac
 
                             else:
                                 print("Las habitaciones estan llenas y el enfermo ha sido trasladado a otro hospital")
-                                for pac in self.sala_de_espera:
-                                    if pac == paciente:
-                                        del pac
+
+                            for pac in self.sala_de_espera:
+                                if pac == paciente:
+                                    del pac
 
                         else:
                             # No esta enfermo de gravedad
                             print(f'Paciente de la consulta: {paciente.nombre}')
-                            consulta.removePaciente()
+                            #consulta.removePaciente()
                             for pac in self.sala_de_espera:
                                 if pac == paciente:
                                     del pac

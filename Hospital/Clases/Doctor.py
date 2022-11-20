@@ -6,20 +6,20 @@ from Hospital.Clases.Trabajador import Trabajador
 
 class Doctor(Trabajador):
     def __init__(self, nombre, apellidos, dni, especialidad):
-        '''
-        :param nombre: Nombre
-        :param apellidos: Apellidos
-        :param dni: DNI
-        :param especialidad: Especialidad
-        '''
+        """
+        :param nombre: Nombre.
+        :param apellidos: Apellidos.
+        :param dni: DNI.
+        :param especialidad: Especialidad.
+        """
         Trabajador.__init__(self, nombre, apellidos, dni)
         self.especialidad = especialidad
 
     def diagnosticar(self, paciente):
-        '''
+        """
         :param paciente: Objeto paciente al que se le diagnostica.
-        :return: Devuelve booleano segun si hay que internar al paciente o no.
-        '''
+        :return: Devuelve booleano según si hay que internar al paciente o no.
+        """
         print(
             f'El doctor {self.nombre} {self.apellidos} esta diagnosticando al paciente: {paciente.nombre} {paciente.apellidos}')
         probabilidad_enfermo = random.randint(0, 10)

@@ -1,7 +1,7 @@
 # Creación de la clase padre Trabajador que a su vez hereda de Persona
 import datetime
 
-from Hospital.Clases.Persona import Persona
+from Proyecto.Hospital.Clases.Persona import Persona
 
 
 class Trabajador(Persona):

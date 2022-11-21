@@ -1,5 +1,5 @@
 # Creación de la clase padre Doctor que a su vez hereda de Trabajador.
-from Hospital.Clases.Trabajador import Trabajador
+from Proyecto.Hospital.Clases.Trabajador import Trabajador
 
 
 class Enfermero(Trabajador):
@@ -25,9 +25,6 @@ class Enfermero(Trabajador):
         print(
             f'El enfermero {self.nombre} {self.apellidos} de la planta {self.planta} esta atendiendo al paciente: {paciente.nombre} {paciente.apellidos}')
         for consulta in consultas:
-            if consulta.paciente == "":
-                print(f'Consulta:{consulta.numero:-^15}')
+            if consulta.paciente is None:
                 consulta.addPaciente(paciente)
                 break
-            else:
-                print(f'La consulta {consulta.numero} esta ocupada.')

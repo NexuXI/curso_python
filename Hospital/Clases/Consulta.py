@@ -1,5 +1,4 @@
-# Creación de la clase Hospital.
-from Hospital.Clases.Paciente import Paciente
+# Creación de la clase Consulta.
 
 
 class Consulta:
@@ -11,7 +10,7 @@ class Consulta:
         """
         self.numero = numero
         self.doctor = doctor
-        self.paciente = ""
+        self.paciente = None
 
     def addDoctor(self, doctor):
         """

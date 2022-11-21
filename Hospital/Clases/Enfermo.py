@@ -1,5 +1,5 @@
 # Creación de la clase Enfermo que hereda de Persona
-from Hospital.Clases.Persona import Persona
+from Proyecto.Hospital.Clases.Persona import Persona
 
 
 class Enfermo(Persona):

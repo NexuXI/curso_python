@@ -1,4 +1,4 @@
-from Hospital.Clases.Enfermo import Enfermo
+from Proyecto.Hospital.Clases.Enfermo import Enfermo
 
 
 class Hospital:
@@ -64,51 +64,47 @@ class Hospital:
             enfermero.fichar()
         print("------------------------------------------------------")
         while len(self.sala_de_espera) != 0:
+            num_consulta = 0
             for enfermero in self.enfermeros:
                 print("--> --> --> --> --> --> --> --> --> --> --> --> --> --> --> ")
-                print(f'Enfermero: {enfermero.nombre:-^15}')
                 for paciente in self.sala_de_espera:
-
-                    print(f'Paciente: {paciente.nombre:-^15}')
                     enfermero.atender(paciente, self.consultas)
                     self.sala_de_espera.pop(0)
-                    for consulta in self.consultas:
-                        print(f'Doctor: {consulta.doctor.nombre:-^15}')
-                        if consulta.doctor.diagnosticar(paciente):
-                            # Está enfermo de gravedad
-                            enfermedades = ["Cancer", "VIH", "Hepatitis", "Leucemia", "COVID-19"]
-                            match paciente.sintomas:
-                                case "dolor de cabeza":
-                                    enfermedad = enfermedades[0]
-                                case "nauseas":
-                                    enfermedad = enfermedades[1]
-                                case "tos seca":
-                                    enfermedad = enfermedades[2]
-                                case "poco apetito":
-                                    enfermedad = enfermedades[3]
-                                case "fiebre":
-                                    enfermedad = enfermedades[4]
-                                case _:
-                                    enfermedad = "Enfermedad muy rara"
-                            enfermo = Enfermo(paciente.nombre, paciente.apellidos, paciente.dni, enfermedad)
-                            # Borra paciente tras crear enfermo
-                            consulta.paciente = ""
-                            if len(self.habitaciones) < 3:
-                                print(
-                                    f'El paciente: {paciente.nombre} {paciente.apellidos} ha sido internado como enfermo en una de las habitaciones.')
-                                self.addEnfermo(enfermo)
-                            else:
-                                print("Las habitaciones estan llenas y el enfermo ha sido trasladado a otro hospital")
+                    if self.consultas[num_consulta].doctor.diagnosticar(paciente):
+                        # Está enfermo de gravedad
+                        enfermedades = ["Cancer", "VIH", "Hepatitis", "Leucemia", "COVID-19"]
+                        match paciente.sintomas:
+                            case "dolor de cabeza":
+                                enfermedad = enfermedades[0]
+                            case "nauseas":
+                                enfermedad = enfermedades[1]
+                            case "tos seca":
+                                enfermedad = enfermedades[2]
+                            case "poco apetito":
+                                enfermedad = enfermedades[3]
+                            case "fiebre":
+                                enfermedad = enfermedades[4]
+                            case _:
+                                enfermedad = "Enfermedad muy rara"
+                        enfermo = Enfermo(paciente.nombre, paciente.apellidos, paciente.dni, enfermedad)
+                        # Borra paciente tras crear enfermo
+                        self.consultas[num_consulta].paciente = None
+                        if len(self.habitaciones) < 3:
+                            print(
+                                f'El paciente: {paciente.nombre} {paciente.apellidos} ha sido internado como enfermo '
+                                f'en una de las habitaciones.')
+                            self.addEnfermo(enfermo)
                         else:
-                            # No esta enfermo de gravedad
-                            print(f'Paciente de la consulta: {paciente.nombre}')
-                            consulta.paciente = ""
-                        for pac in self.sala_de_espera:
-                            if pac == paciente:
-                                del pac
-                        break
+                            print("Las habitaciones están llenas y el enfermo ha sido trasladado a otro hospital")
+                    else:
+                        # No esta enfermo de gravedad
+                        print(f'Paciente de la consulta: {paciente.nombre}')
+                        self.consultas[num_consulta].pacient = None
+                    for pac in self.sala_de_espera:
+                        if pac == paciente:
+                            del pac
+                    num_consulta += 1
                     break
-
 
         print("------------------------------------------------------")
         print("Fichas de salida")

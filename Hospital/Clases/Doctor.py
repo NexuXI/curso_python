@@ -1,7 +1,6 @@
 # Creacion de la clase padre Doctor que a su vez hereda de Trabajador
 import random
-
-from Hospital.Clases.Trabajador import Trabajador
+from Proyecto.Hospital.Clases.Trabajador import Trabajador
 
 
 class Doctor(Trabajador):

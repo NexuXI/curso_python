@@ -1,0 +1,23 @@
+09:01:54 AM: INFO [loging.py:24] ('name:', '__main__')
+09:01:54 AM: DEBUG [loging.py:20] Mensaje a nivel debug
+09:01:54 AM: INFO [loging.py:42] mensaje a nivel info
+09:01:54 AM: WARNING [loging.py:43] Mensaje a nivel de warning
+09:01:54 AM: ERROR [loging.py:44] mensaje a nivel de error
+09:01:54 AM: CRITICAL [loging.py:45] mensaje a nivel de critical
+09:11:10 AM: INFO [loging.py:24] ('name:', 'Proyecto.utils.loging')
+09:11:18 AM: DEBUG [loging.py:20] El camarero: Nombre: Miguel está sirviendo al cliente: Nombre: Jose.
+09:11:18 AM: DEBUG [loging.py:20] Un cafe solo a temperatura de 66.
+09:11:18 AM: DEBUG [loging.py:20] el cliente se toma la taza de cafe solo.
+09:11:18 AM: DEBUG [loging.py:20] El cafe estaba a una temperatura aceptable.
+09:16:27 AM: DEBUG [loging.py:20] El camarero: Nombre: Miguel está sirviendo al cliente: Nombre: Jose.
+09:16:27 AM: DEBUG [loging.py:20] Un cafe cafe con leche' a temperatura de 99.
+09:16:27 AM: DEBUG [loging.py:20] el cliente se toma la taza de cafe cafe con leche'.
+09:16:27 AM: WARNING [loging.py:28] ("Exception - Ocurrió un error: TemperatureException.__init__() got an unexpected keyword argument 'message' , <class 'TypeError'>",)
+09:18:04 AM: DEBUG [loging.py:20] El camarero: Nombre: Miguel está sirviendo al cliente: Nombre: Jose.
+09:18:04 AM: DEBUG [loging.py:20] Un cafe cafe solo con tres cucharadas de azucar a temperatura de 100.
+09:18:04 AM: DEBUG [loging.py:20] el cliente se toma la taza de cafe cafe solo con tres cucharadas de azucar.
+09:18:04 AM: WARNING [loging.py:28] ("Exception - Ocurrió un error: TooHotTemperature.__init__() takes 1 positional argument but 2 were given , <class 'TypeError'>",)
+09:18:43 AM: DEBUG [loging.py:20] El camarero: Nombre: Miguel está sirviendo al cliente: Nombre: Jose.
+09:18:43 AM: DEBUG [loging.py:20] Un cafe capuccino a temperatura de 20.
+09:18:43 AM: DEBUG [loging.py:20] el cliente se toma la taza de cafe capuccino.
+09:18:43 AM: DEBUG [loging.py:20] El cafe estaba a una temperatura aceptable.

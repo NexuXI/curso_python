@@ -1,6 +1,12 @@
 import logging as log
 
-log.basicConfig(level=log.DEBUG, format='%(asctime)')
+log.basicConfig(level=log.DEBUG,
+                format='%(asctime)s: %(levelname)s [%(filename)s:%(lineno)s] %(message)s',
+                datefmt='%I:%M:%S %p',
+                handlers=[
+                    log.FileHandler('../logs/cafeteria.log'),
+                    log.StreamHandler()
+                ])
 
 
 def genera_mensaje(mensajes):
@@ -28,12 +34,3 @@ def error(*message):
 
 def critical(*message):
     log.critical(message)
-
-
-info("name:", __name__)
-if __name__ == '__main__':
-    debug('Mensaje a nivel debug')
-    log.info('mensaje a nivel info')
-    log.warning('Mensaje a nivel de warning')
-    log.error('mensaje a nivel de error')
-    log.critical('mensaje a nivel de critical')

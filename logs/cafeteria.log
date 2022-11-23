@@ -21,3 +21,7 @@
 09:18:43 AM: DEBUG [loging.py:20] Un cafe capuccino a temperatura de 20.
 09:18:43 AM: DEBUG [loging.py:20] el cliente se toma la taza de cafe capuccino.
 09:18:43 AM: DEBUG [loging.py:20] El cafe estaba a una temperatura aceptable.
+12:36:48 PM: DEBUG [loging.py:20] El camarero: Nombre: Miguel está sirviendo al cliente: Nombre: Jose.
+12:36:48 PM: DEBUG [loging.py:20] Un cafe solo a temperatura de 22.
+12:36:48 PM: DEBUG [loging.py:20] el cliente se toma la taza de cafe solo.
+12:36:48 PM: DEBUG [loging.py:20] El cafe estaba a una temperatura aceptable.

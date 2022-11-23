@@ -1,0 +1,236 @@
+03:02:34 PM: DEBUG [clases_orquestra.py:107] El concierto ha terminado.
+03:04:32 PM: DEBUG [clases_orquestra.py:98] Instrumentos afinados.
+03:04:32 PM: DEBUG [clases_orquestra.py:100] Inicia el concierto.
+03:04:32 PM: DEBUG [clases_orquestra.py:109] El concierto ha terminado.
+03:05:04 PM: DEBUG [clases_orquestra.py:98] Instrumentos afinados.
+03:05:04 PM: DEBUG [clases_orquestra.py:100] Inicia el concierto.
+03:05:04 PM: DEBUG [clases_orquestra.py:109] El concierto ha terminado.
+03:20:13 PM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+03:20:13 PM: DEBUG [clases_orquestra.py:19] Después de la ejecución de la funcion
+03:20:13 PM: DEBUG [clases_orquestra.py:100] True
+03:20:13 PM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+03:20:13 PM: DEBUG [clases_orquestra.py:19] Después de la ejecución de la funcion
+03:20:13 PM: DEBUG [clases_orquestra.py:100] True
+03:20:13 PM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+03:20:13 PM: DEBUG [clases_orquestra.py:19] Después de la ejecución de la funcion
+03:20:13 PM: DEBUG [clases_orquestra.py:100] True
+03:20:13 PM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+03:20:13 PM: DEBUG [clases_orquestra.py:19] Después de la ejecución de la funcion
+03:20:13 PM: DEBUG [clases_orquestra.py:100] True
+03:20:13 PM: DEBUG [clases_orquestra.py:101] Instrumentos afinados.
+03:20:13 PM: DEBUG [clases_orquestra.py:103] Inicia el concierto.
+03:20:13 PM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+03:20:13 PM: DEBUG [clases_orquestra.py:112] El concierto ha terminado.
+03:22:12 PM: DEBUG [clases_orquestra.py:99] Instrumentos afinados.
+03:22:12 PM: DEBUG [clases_orquestra.py:101] Inicia el concierto.
+03:22:12 PM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+03:22:12 PM: ERROR [clases_orquestra.py:108] Instrumento no afinado.
+03:22:12 PM: DEBUG [clases_orquestra.py:110] El concierto ha terminado.
+03:22:12 PM: DEBUG [clases_orquestra.py:101] Inicia el concierto.
+03:22:12 PM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+03:22:12 PM: ERROR [clases_orquestra.py:108] Instrumento no afinado.
+03:22:12 PM: DEBUG [clases_orquestra.py:110] El concierto ha terminado.
+03:22:12 PM: DEBUG [clases_orquestra.py:101] Inicia el concierto.
+03:22:12 PM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+03:22:12 PM: ERROR [clases_orquestra.py:108] Instrumento no afinado.
+03:22:12 PM: DEBUG [clases_orquestra.py:110] El concierto ha terminado.
+03:22:12 PM: DEBUG [clases_orquestra.py:101] Inicia el concierto.
+03:22:12 PM: DEBUG [clases_orquestra.py:104] Aporreando el tambor: Tambor1
+03:22:12 PM: DEBUG [clases_orquestra.py:110] El concierto ha terminado.
+03:22:55 PM: DEBUG [clases_orquestra.py:99] Instrumentos afinados.
+03:22:55 PM: DEBUG [clases_orquestra.py:101] Inicia el concierto.
+03:22:55 PM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+03:22:55 PM: ERROR [clases_orquestra.py:108] Instrumento no afinado.
+03:22:55 PM: DEBUG [clases_orquestra.py:110] El concierto ha terminado.
+03:22:55 PM: DEBUG [clases_orquestra.py:101] Inicia el concierto.
+03:22:55 PM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+03:22:55 PM: ERROR [clases_orquestra.py:108] Instrumento no afinado.
+03:22:55 PM: DEBUG [clases_orquestra.py:110] El concierto ha terminado.
+03:22:55 PM: DEBUG [clases_orquestra.py:101] Inicia el concierto.
+03:22:55 PM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+03:22:55 PM: ERROR [clases_orquestra.py:108] Instrumento no afinado.
+03:22:55 PM: DEBUG [clases_orquestra.py:110] El concierto ha terminado.
+03:22:55 PM: DEBUG [clases_orquestra.py:101] Inicia el concierto.
+03:22:55 PM: DEBUG [clases_orquestra.py:104] Aporreando el tambor: Tambor1
+03:22:55 PM: DEBUG [clases_orquestra.py:110] El concierto ha terminado.
+08:12:21 AM: DEBUG [clases_orquestra.py:99] Instrumentos afinados.
+08:12:21 AM: DEBUG [clases_orquestra.py:101] Inicia el concierto.
+08:12:21 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:12:21 AM: ERROR [clases_orquestra.py:108] Instrumento no afinado.
+08:12:21 AM: DEBUG [clases_orquestra.py:110] El concierto ha terminado.
+08:12:21 AM: DEBUG [clases_orquestra.py:101] Inicia el concierto.
+08:12:21 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:12:21 AM: ERROR [clases_orquestra.py:108] Instrumento no afinado.
+08:12:21 AM: DEBUG [clases_orquestra.py:110] El concierto ha terminado.
+08:12:21 AM: DEBUG [clases_orquestra.py:101] Inicia el concierto.
+08:12:21 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:12:21 AM: ERROR [clases_orquestra.py:108] Instrumento no afinado.
+08:12:21 AM: DEBUG [clases_orquestra.py:110] El concierto ha terminado.
+08:12:21 AM: DEBUG [clases_orquestra.py:101] Inicia el concierto.
+08:12:21 AM: DEBUG [clases_orquestra.py:104] Aporreando el tambor: Tambor1
+08:12:21 AM: DEBUG [clases_orquestra.py:110] El concierto ha terminado.
+08:13:24 AM: DEBUG [clases_orquestra.py:99] Instrumentos afinados.
+08:13:24 AM: DEBUG [clases_orquestra.py:101] Inicia el concierto.
+08:13:24 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:13:24 AM: ERROR [clases_orquestra.py:108] Instrumento: Guitarra1 no afinado.
+08:13:24 AM: DEBUG [clases_orquestra.py:110] El concierto ha terminado.
+08:13:24 AM: DEBUG [clases_orquestra.py:101] Inicia el concierto.
+08:13:24 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:13:24 AM: ERROR [clases_orquestra.py:108] Instrumento: GuitarraElectrica1 no afinado.
+08:13:24 AM: DEBUG [clases_orquestra.py:110] El concierto ha terminado.
+08:13:24 AM: DEBUG [clases_orquestra.py:101] Inicia el concierto.
+08:13:24 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:13:24 AM: ERROR [clases_orquestra.py:108] Instrumento: Piano1 no afinado.
+08:13:24 AM: DEBUG [clases_orquestra.py:110] El concierto ha terminado.
+08:13:24 AM: DEBUG [clases_orquestra.py:101] Inicia el concierto.
+08:13:24 AM: DEBUG [clases_orquestra.py:104] Aporreando el tambor: Tambor1
+08:13:24 AM: DEBUG [clases_orquestra.py:110] El concierto ha terminado.
+08:18:51 AM: DEBUG [clases_orquestra.py:102] Instrumentos afinados.
+08:18:51 AM: DEBUG [clases_orquestra.py:103] Inicia el concierto.
+08:18:51 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:18:51 AM: ERROR [clases_orquestra.py:112] Instrumento: Guitarra1 no afinado.
+08:18:51 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:18:51 AM: DEBUG [clases_orquestra.py:19] Después de la ejecución de la funcion
+08:18:51 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:18:51 AM: ERROR [clases_orquestra.py:112] Instrumento: Guitarra1 no afinado.
+08:18:51 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:18:51 AM: DEBUG [clases_orquestra.py:19] Después de la ejecución de la funcion
+08:18:51 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:18:51 AM: ERROR [clases_orquestra.py:112] Instrumento: Guitarra1 no afinado.
+08:18:51 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:18:51 AM: DEBUG [clases_orquestra.py:19] Después de la ejecución de la funcion
+08:18:51 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:18:51 AM: ERROR [clases_orquestra.py:112] Instrumento: GuitarraElectrica1 no afinado.
+08:18:51 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:18:51 AM: DEBUG [clases_orquestra.py:19] Después de la ejecución de la funcion
+08:18:51 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:18:51 AM: ERROR [clases_orquestra.py:112] Instrumento: Piano1 no afinado.
+08:18:51 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:18:51 AM: DEBUG [clases_orquestra.py:19] Después de la ejecución de la funcion
+08:18:51 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:18:51 AM: ERROR [clases_orquestra.py:112] Instrumento: Piano1 no afinado.
+08:18:51 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:18:51 AM: DEBUG [clases_orquestra.py:19] Después de la ejecución de la funcion
+08:18:51 AM: ERROR [clases_orquestra.py:112] Instrumento: Tambor1 no afinado.
+08:18:51 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:18:51 AM: DEBUG [clases_orquestra.py:19] Después de la ejecución de la funcion
+08:18:51 AM: DEBUG [clases_orquestra.py:114] El concierto ha terminado.
+08:20:19 AM: DEBUG [clases_orquestra.py:103] Instrumentos afinados.
+08:20:19 AM: DEBUG [clases_orquestra.py:104] Inicia el concierto.
+08:20:19 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:20:19 AM: ERROR [clases_orquestra.py:113] Instrumento: Guitarra1 no afinado.
+08:20:19 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:20:19 AM: INFO [clases_orquestra.py:45] Instrumento Guitarra1 esta: True
+08:20:19 AM: DEBUG [clases_orquestra.py:19] Después de la ejecución de la funcion
+08:20:19 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:20:19 AM: ERROR [clases_orquestra.py:113] Instrumento: GuitarraElectrica1 no afinado.
+08:20:19 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:20:19 AM: INFO [clases_orquestra.py:45] Instrumento GuitarraElectrica1 esta: False
+08:20:19 AM: DEBUG [clases_orquestra.py:19] Después de la ejecución de la funcion
+08:20:19 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:20:19 AM: ERROR [clases_orquestra.py:113] Instrumento: GuitarraElectrica1 no afinado.
+08:20:19 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:20:19 AM: INFO [clases_orquestra.py:45] Instrumento GuitarraElectrica1 esta: True
+08:20:19 AM: DEBUG [clases_orquestra.py:19] Después de la ejecución de la funcion
+08:20:19 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:20:19 AM: ERROR [clases_orquestra.py:113] Instrumento: Piano1 no afinado.
+08:20:19 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:20:19 AM: INFO [clases_orquestra.py:45] Instrumento Piano1 esta: True
+08:20:19 AM: DEBUG [clases_orquestra.py:19] Después de la ejecución de la funcion
+08:20:19 AM: ERROR [clases_orquestra.py:113] Instrumento: Tambor1 no afinado.
+08:20:19 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:20:19 AM: INFO [clases_orquestra.py:45] Instrumento Tambor1 esta: True
+08:20:19 AM: DEBUG [clases_orquestra.py:19] Después de la ejecución de la funcion
+08:20:19 AM: DEBUG [clases_orquestra.py:115] El concierto ha terminado.
+08:22:48 AM: DEBUG [clases_orquestra.py:103] Instrumentos afinados.
+08:22:48 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:22:48 AM: ERROR [clases_orquestra.py:112] Instrumento: Guitarra1 no afinado.
+08:22:48 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:22:48 AM: INFO [clases_orquestra.py:45] Instrumento Guitarra1 esta: False
+08:22:48 AM: DEBUG [clases_orquestra.py:19] Después de la ejecución de la funcion
+08:22:48 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:22:48 AM: ERROR [clases_orquestra.py:112] Instrumento: Guitarra1 no afinado.
+08:22:48 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:22:48 AM: INFO [clases_orquestra.py:45] Instrumento Guitarra1 esta: False
+08:22:48 AM: DEBUG [clases_orquestra.py:19] Después de la ejecución de la funcion
+08:22:48 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:22:48 AM: ERROR [clases_orquestra.py:112] Instrumento: Guitarra1 no afinado.
+08:22:48 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:22:48 AM: INFO [clases_orquestra.py:45] Instrumento Guitarra1 esta: True
+08:22:48 AM: DEBUG [clases_orquestra.py:19] Después de la ejecución de la funcion
+08:22:48 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:22:48 AM: ERROR [clases_orquestra.py:112] Instrumento: GuitarraElectrica1 no afinado.
+08:22:48 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:22:48 AM: INFO [clases_orquestra.py:45] Instrumento GuitarraElectrica1 esta: False
+08:22:48 AM: DEBUG [clases_orquestra.py:19] Después de la ejecución de la funcion
+08:22:48 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:22:48 AM: ERROR [clases_orquestra.py:112] Instrumento: GuitarraElectrica1 no afinado.
+08:22:48 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:22:48 AM: INFO [clases_orquestra.py:45] Instrumento GuitarraElectrica1 esta: False
+08:22:48 AM: DEBUG [clases_orquestra.py:19] Después de la ejecución de la funcion
+08:22:48 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:22:48 AM: ERROR [clases_orquestra.py:112] Instrumento: GuitarraElectrica1 no afinado.
+08:22:48 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:22:48 AM: INFO [clases_orquestra.py:45] Instrumento GuitarraElectrica1 esta: True
+08:22:48 AM: DEBUG [clases_orquestra.py:19] Después de la ejecución de la funcion
+08:22:48 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:22:48 AM: ERROR [clases_orquestra.py:112] Instrumento: Piano1 no afinado.
+08:22:48 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:22:48 AM: INFO [clases_orquestra.py:45] Instrumento Piano1 esta: True
+08:22:48 AM: DEBUG [clases_orquestra.py:19] Después de la ejecución de la funcion
+08:22:48 AM: ERROR [clases_orquestra.py:112] Instrumento: Tambor1 no afinado.
+08:22:48 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:22:48 AM: INFO [clases_orquestra.py:45] Instrumento Tambor1 esta: False
+08:22:48 AM: DEBUG [clases_orquestra.py:19] Después de la ejecución de la funcion
+08:22:48 AM: ERROR [clases_orquestra.py:112] Instrumento: Tambor1 no afinado.
+08:22:48 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:22:48 AM: INFO [clases_orquestra.py:45] Instrumento Tambor1 esta: True
+08:22:48 AM: DEBUG [clases_orquestra.py:19] Después de la ejecución de la funcion
+08:22:48 AM: DEBUG [clases_orquestra.py:114] Inicia el concierto.
+08:22:48 AM: DEBUG [clases_orquestra.py:117] Guitarra1 esta afinado
+08:22:48 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:23:08 AM: DEBUG [clases_orquestra.py:103] Instrumentos afinados.
+08:23:08 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:23:08 AM: ERROR [clases_orquestra.py:112] Instrumento: Guitarra1 no afinado.
+08:23:08 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:23:08 AM: INFO [clases_orquestra.py:45] Instrumento Guitarra1 esta: False
+08:23:08 AM: DEBUG [clases_orquestra.py:19] Después de la ejecución de la funcion
+08:23:08 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:23:08 AM: ERROR [clases_orquestra.py:112] Instrumento: Guitarra1 no afinado.
+08:23:08 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:23:08 AM: INFO [clases_orquestra.py:45] Instrumento Guitarra1 esta: True
+08:23:08 AM: DEBUG [clases_orquestra.py:19] Después de la ejecución de la funcion
+08:23:08 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:23:08 AM: ERROR [clases_orquestra.py:112] Instrumento: GuitarraElectrica1 no afinado.
+08:23:08 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:23:08 AM: INFO [clases_orquestra.py:45] Instrumento GuitarraElectrica1 esta: True
+08:23:08 AM: DEBUG [clases_orquestra.py:19] Después de la ejecución de la funcion
+08:23:08 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:23:08 AM: ERROR [clases_orquestra.py:112] Instrumento: Piano1 no afinado.
+08:23:08 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:23:08 AM: INFO [clases_orquestra.py:45] Instrumento Piano1 esta: True
+08:23:08 AM: DEBUG [clases_orquestra.py:19] Después de la ejecución de la funcion
+08:23:08 AM: ERROR [clases_orquestra.py:112] Instrumento: Tambor1 no afinado.
+08:23:08 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:23:08 AM: INFO [clases_orquestra.py:45] Instrumento Tambor1 esta: False
+08:23:08 AM: DEBUG [clases_orquestra.py:19] Después de la ejecución de la funcion
+08:23:08 AM: ERROR [clases_orquestra.py:112] Instrumento: Tambor1 no afinado.
+08:23:08 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:23:08 AM: INFO [clases_orquestra.py:45] Instrumento Tambor1 esta: True
+08:23:08 AM: DEBUG [clases_orquestra.py:19] Después de la ejecución de la funcion
+08:23:08 AM: DEBUG [clases_orquestra.py:114] Inicia el concierto.
+08:23:08 AM: DEBUG [clases_orquestra.py:117] Guitarra1 esta afinado
+08:23:08 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:23:08 AM: DEBUG [clases_orquestra.py:19] Después de la ejecución de la funcion
+08:23:08 AM: DEBUG [clases_orquestra.py:121] ('Instrumento: Guitarra1, de tipo: Cuerda', ' se esta tocando de manera correcta.')
+08:23:08 AM: DEBUG [clases_orquestra.py:117] GuitarraElectrica1 esta afinado
+08:23:08 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:23:08 AM: DEBUG [clases_orquestra.py:19] Después de la ejecución de la funcion
+08:23:08 AM: DEBUG [clases_orquestra.py:121] ('Instrumento: GuitarraElectrica1, de tipo: Cuerda', ' se esta tocando de manera correcta.')
+08:23:08 AM: DEBUG [clases_orquestra.py:117] Piano1 esta afinado
+08:23:08 AM: DEBUG [clases_orquestra.py:17] Antes de la ejecución de la funcion
+08:23:08 AM: DEBUG [clases_orquestra.py:19] Después de la ejecución de la funcion
+08:23:08 AM: DEBUG [clases_orquestra.py:121] ('Instrumento: Piano1, de tipo: Cuerda', ' se esta tocando de manera correcta.')
+08:23:08 AM: DEBUG [clases_orquestra.py:117] Tambor1 esta afinado
+08:23:08 AM: DEBUG [clases_orquestra.py:119] ('Instrumento: Tambor1, de tipo: Percusion', ' se esta tocando de manera correcta.')
+08:23:08 AM: DEBUG [clases_orquestra.py:122] El concierto ha terminado.

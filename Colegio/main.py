@@ -1,3 +1,5 @@
+import os
+
 from Colegio.clases import Colegio, Alumno
 
 colegios = []
@@ -11,6 +13,7 @@ with open('alumnos-colegio.txt', 'r', encoding='utf8') as archivo:
         if "Colegio" in linea:
             if not linea[7] in numeros_colegio:
                 numeros_colegio.append(linea[7])
+
     for numero in numeros_colegio:
         nombre_colegio = numero
         colegios.append(Colegio(nombre_colegio))
@@ -27,7 +30,10 @@ with open('alumnos-colegio.txt', 'r', encoding='utf8') as archivo:
             if colegio.nombre == linea[7]:
                 elementos = linea.split("|")
                 asignaturas = elementos[4].split(";")
-                alumno = Alumno(elementos[1], elementos[2], elementos[3], asignaturas)
+                asignaturas_final = []
+                for asignatura in asignaturas:
+                    asignaturas_final.append(asignatura.replace("\n", ""))
+                alumno = Alumno(elementos[1], elementos[2], elementos[3], asignaturas_final)
                 for diccionario in alumnos:
                     llaves = diccionario.keys()
                     for llave in llaves:
@@ -35,11 +41,18 @@ with open('alumnos-colegio.txt', 'r', encoding='utf8') as archivo:
                             diccionario[llave].append(alumno)
 
     for colegio in colegios:
+        for elemento in alumnos:
+            for p in elemento.values():
+                for al in p:
+                    colegio.alumnos.append(al)
+
+    for colegio in colegios:
         nombre_archivo = "Colegio", colegio.nombre
         nom = "".join([str(_) for _ in nombre_archivo])
         nom = nom + ".txt"
-        archivo = open(nom, 'x', encoding='utf8')
-        archivo.close()
+        if not os.path.exists(nom):
+            archivo = open(nom, 'x', encoding='utf8')
+            archivo.close()
         file = open(nom, "w", encoding='utf8')
         for elemento in alumnos:
             for p in elemento.values():
@@ -50,3 +63,5 @@ with open('alumnos-colegio.txt', 'r', encoding='utf8') as archivo:
             texto_final = "".join([str(_) for _ in nombre_archivo])+"|"+texto.rstrip(texto[-1])
             file.write(texto_final + "\n")
         file.close()
+
+

@@ -1,4 +1,4 @@
-from datetime import datetime
+import Proyecto.utils.loging as log
 import Proyecto.utils.conexion as con
 
 try:
@@ -8,12 +8,12 @@ try:
         sentencia = 'Select nombre from personas'
         cursor.execute(sentencia)
         nombres = cursor.fetchall()
-        print(f"Todos los nombres de la tabla personas: {nombres}")
-        print("-------------------------------")
+        log.debug(f"Todos los nombres de la tabla personas: {nombres}")
+        log.debug("-------------------------------")
         sentencia = "SELECT * FROM personas WHERE email LIKE '%@gmail.com';"
         cursor.execute(sentencia)
         gmail = cursor.fetchall()
-        print("Todos los datos de las personas con email acabado en @gmail.com: ", gmail)
+        log.debug("Todos los datos de las personas con email acabado en @gmail.com: ", gmail)
         sentencia = "SELECT * FROM personas WHERE email LIKE '%@gmail.com'"
         cursor.execute(sentencia)
         gmail = cursor.fetchall()
@@ -34,4 +34,4 @@ try:
         conexion.commit()
 except Exception as e:
     conexion.rollback()
-    print(f'Ocurrió un error, se hizo rollback: {e}')
+    log.error(f'Ocurrió un error, se hizo rollback: {e}')

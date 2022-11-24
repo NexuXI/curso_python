@@ -1,4 +1,5 @@
 import sys
+import Proyecto.utils.loging as log
 import MySQLdb
 import psycopg2
 
@@ -26,12 +27,12 @@ def get_conection(db="mysql", maquina="localhost", usuario="root", password="pas
                 database=base_datos
             )
     except MySQLdb.Error as mysqle:
-        print("No puedo conectar a la base de datos:", mysqle)
+        log.error("No puedo conectar a la base de datos:", mysqle)
 
     except Exception as e:
-        print("No puedo conectar a la base de datos:", e)
+        log.error("No puedo conectar a la base de datos:", e)
 
     else:
-        print("Conexión correcta.")
+        log.debug("Conexión correcta.")
 
     return conection

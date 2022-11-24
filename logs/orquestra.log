@@ -234,3 +234,10 @@
 08:23:08 AM: DEBUG [clases_orquestra.py:117] Tambor1 esta afinado
 08:23:08 AM: DEBUG [clases_orquestra.py:119] ('Instrumento: Tambor1, de tipo: Percusion', ' se esta tocando de manera correcta.')
 08:23:08 AM: DEBUG [clases_orquestra.py:122] El concierto ha terminado.
+01:58:08 PM: DEBUG [loging.py:20] Todos los nombres de la tabla personas: (('Pepe',), ('Jose',), ('Omar',))
+01:58:08 PM: DEBUG [loging.py:20] -------------------------------
+01:58:08 PM: DEBUG [loging.py:20] Todos los datos de las personas con email acabado en @gmail.com: ((1, 'Pepe', 'Sanchez', 'pepesanchez@gmail.com'), (2, 'Jose', 'martinez', 'josemartinez@gmail.com'), (3, 'Omar', 'Montes', 'omarmontes@gmail.com'))
+01:59:12 PM: DEBUG [loging.py:20] Conexión correcta.
+01:59:12 PM: DEBUG [loging.py:20] Todos los nombres de la tabla personas: (('Pepe',), ('Jose',), ('Omar',))
+01:59:12 PM: DEBUG [loging.py:20] -------------------------------
+01:59:12 PM: DEBUG [loging.py:20] Todos los datos de las personas con email acabado en @gmail.com: ((1, 'Pepe', 'Sanchez', 'pepesanchez@gmail.com'), (2, 'Jose', 'martinez', 'josemartinez@gmail.com'), (3, 'Omar', 'Montes', 'omarmontes@gmail.com'))

@@ -3,7 +3,6 @@ import Proyecto.utils.loging as log
 import MySQLdb
 import psycopg2
 
-
 def get_mysql_conection():
     return get_conection()
 

@@ -1,0 +1,4 @@
+02:22:16 PM: DEBUG [loging.py:20] Conexión correcta.
+02:22:16 PM: DEBUG [loging.py:20] Todos los nombres de la tabla personas: (('Pepe',), ('Jose',), ('Omar',))
+02:22:16 PM: DEBUG [loging.py:20] -------------------------------
+02:22:16 PM: DEBUG [loging.py:20] Todos los datos de las personas con email acabado en @gmail.com: ((1, 'Pepe', 'Sanchez', 'pepesanchez@gmail.com'), (2, 'Jose', 'martinez', 'josemartinez@gmail.com'), (3, 'Omar', 'Montes', 'omarmontes@gmail.com'))

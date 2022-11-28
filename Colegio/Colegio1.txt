@@ -1,0 +1,3 @@
+Colegio1|Nombre11|Apellidos11|1111K|Matemáticas;Química
+Colegio1|Nombre10|Apellidos10|1010J|Geografías;Historia
+Colegio1|Nombre8|Apellidos8|8888H|Matemáticas;Lengua
